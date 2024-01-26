@@ -1,0 +1,20 @@
+section {
+  height: 300px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+}
+
+div {
+  background-color: lightskyblue;
+  border-radius: 5px;
+  margin: 3px;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+div:nth-child(4) {
+  align-self: end;
+  justify-self: end;
+}

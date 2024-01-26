@@ -1,0 +1,35 @@
+.article01 {
+  position: static;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: sandybrown;
+}
+
+/*Alles im Prinzip wie bei der absoluten Positionierung bezüglich Viewport – nur mit dem Unterschied,
+dass dieses neu positionierte Element fest stehen bleibt und nicht mehr mitgescrollt
+wird.*/
+.article02 {
+  position: fixed;
+  bottom: 10px;
+  left: 100px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: bisque;
+}
+
+.article03 {
+  position: static;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: aliceblue;
+}
+
+.foothead {
+  padding: 20px 0;
+  font-size: 20px;
+  text-align: center;
+  background-color: brown;
+}

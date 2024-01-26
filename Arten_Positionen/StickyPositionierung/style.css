@@ -1,0 +1,39 @@
+.article01 {
+  position: static;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: sandybrown;
+}
+
+.article02 {
+  position: static;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: bisque;
+}
+
+.article03 {
+  position: static;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: aliceblue;
+}
+
+.sticky_h1 {
+  position: sticky;
+  position: -webkit-sticky; /*Safari*/
+  top: -5px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.foothead {
+  padding: 20px 0;
+  font-size: 20px;
+  text-align: center;
+  background-color: brown;
+}

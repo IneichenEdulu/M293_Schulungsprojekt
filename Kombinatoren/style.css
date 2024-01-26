@@ -1,0 +1,21 @@
+/*Alle p-Elemente, die innerhalb des article-Elements liegen, sind hellblau*/
+article p {
+  background-color: lightblue;
+}
+
+/*Alle p-Elemente, die direkte Nachfahren des article-Elerments sind, sind hellblau.*/
+/* article > p {
+  background-color: lightblue;
+} */
+
+/*Alle p-Elemente, die Nachbarn des article-Elements sind, sind hellblau
+Das article- und das p-Element haben dasselbe Eltern-Element (hier: body)*/
+/* article + p {
+  background-color: lightblue;
+} */
+
+/*Alle p-Elemente, die dem article-Element folgen, sind hellblau.
+Das article- und die p-Elemente haben dasselbe Eltern-Element (hier: body)*/
+/* article ~ p {
+  background-color: lightblue;
+} */

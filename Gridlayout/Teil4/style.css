@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto auto auto auto;
+
+  grid-template-areas:
+    "kopf kopf"
+    "navi inhalt"
+    "seite inhalt"
+    "fuss fuss ";
+}
+
+.kopf {
+  grid-area: kopf;
+
+  background-color: lightskyblue;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.navi {
+  grid-area: navi;
+
+  background-color: lightpink;
+  border-radius: 5px;
+  margin: 2px;
+}
+.inhalt {
+  grid-area: inhalt;
+
+  background-color: lightgreen;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.seite {
+  grid-area: seite;
+
+  background-color: lightyellow;
+  border-radius: 5px;
+  margin: 2px;
+}
+.fuss {
+  grid-area: fuss;
+
+  background-color: lightgrey;
+  border-radius: 5px;
+  margin: 2px;
+}
